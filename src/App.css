@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+#gameCont{
+ display: flex;
+ height: 1000px;
+ flex-direction: row;
+
+}
+
+#shipCtrl{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+#ship{
+    display: flex;
+    flex-direction: column;
+   background-color: darkgrey;
+   margin: 10px;
+   border-radius: 5px;
+   /* height: 100px; */
+}
+
+#ship:hover{
+  transform: scale(1.1);
+}
+
+#shipInfo{
+  text-align: left;
+}
